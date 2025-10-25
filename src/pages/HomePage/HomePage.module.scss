@@ -40,3 +40,46 @@
     right: 65px;
     bottom: 0;
 }
+
+// client review
+.client-review {
+    margin-top: 99px;
+    padding: 23px;
+}
+.client-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate-star {
+    margin-bottom: 23px;
+}
+.logo-besnik {
+    width: 107px;
+}
+
+.star-icon {
+    width: 21px;
+}
+
+.rate-desc {
+    margin-bottom: 70px;
+}
+
+.client-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    padding: 0 47px;
+
+    &:hover {
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+.client-logo {
+    height: 28px;
+}
